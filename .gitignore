@@ -1,0 +1,12 @@
+.vscode
+.idea/
+*.iml
+*.iws
+.idea_modules/
+*.war
+*.jar
+*.class
+target
+.gradle
+.mvn/
+build/

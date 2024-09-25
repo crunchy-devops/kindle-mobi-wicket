@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+	<title>Kindle File Upload</title>
+</head>
+<body>
+<h1>Upload a MOBI file</h1>
+
+<form wicket:id="uploadForm" enctype="multipart/form-data">
+	<input wicket:id="fileUpload" type="file" accept=".mobi" />
+	<input type="submit" value="Upload" />
+</form>
+
+<h2 wicket:id="downloadLinkLabel"></h2>
+<a wicket:id="downloadLink">Click here to download</a>
+
+<h2>Uploaded MOBI Files:</h2>
+<pre wicket:id="uploadedFiles"></pre> <!-- Display the list of uploaded files with download links -->
+</body>
+</html>
